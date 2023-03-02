@@ -1,0 +1,15 @@
+db.productos.insertMany([
+    {codigo: 1, nombre: "Gooseberry", tipo: "snack", precio: 15, vencimiento: "10-10-2022"},
+    {codigo: 2, nombre: "Cofee - Hazelnut Cream", tipo: "snack", precio: 32, vencimiento: "101-15-2023"},
+    {codigo: 3, nombre: "Snapple - Iced Tea Peach", tipo: "snack", precio: 82, vencimiento: "02-05-2023"},
+    {codigo: 4, nombre: "Cabbage - Savoy", tipo: "bebida", precio: 15, vencimiento: "11-06-2022"},
+    {codigo: 5, nombre: "Bread - Rosemary Focaccia", tipo: "carnes", precio: 59, vencimiento: "09-25-2022"},
+    {codigo: 6, nombre: "Beef - Salted", tipo: "abarrote", precio: 22, vencimiento: "12-03-2022"},
+    {codigo: 7, nombre: "Pasta - Fetuccine Dry", tipo: "abarrote", precio: 91, vencimiento: "12-05-20200"},
+    {codigo: 8, nombre: "Shiro Miso", tipo: "abarrote", precio: 64, vencimiento: "04-18-2022"},
+    {codigo: 9, nombre: "Wine - Ruffino Chianti Classico", tipo: "licor", precio: 98, vencimiento: "01-11-2023"},
+    {codigo: 10, nombre: "Fuji Apples", tipo: "fruta", precio: 129, vencimiento: "05-18-2022"},
+    ]
+);
+    
+db.productos.find();
