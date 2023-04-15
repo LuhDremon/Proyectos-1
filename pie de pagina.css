@@ -1,0 +1,68 @@
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+body {
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        background-color: #fff
+}
+.logo figure{
+    width: 240px;
+    height: 120px;
+    margin-top: 30px;
+}
+h1  {
+    margin: 20px;
+    color: #024d4d;
+    font-size: 24px;
+}
+footer {
+    border-top: 1px solid rgba(0,0,0.1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.col div {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+button {
+    padding: 10px;
+    background-color: #024d4d;
+    border-color: #024d4d;
+    min-width: 140px;
+    height: 40px;
+    box-shadow: 2px 2px 5px #999;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #fff;
+
+}
+h2,
+h3 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

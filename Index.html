@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Daniel Arenas</title>
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <header class="header">
+            <div>
+                <figure class="logo">
+                    <img src="images/logo.png" />
+                </figure>
+                <nav class="menu">
+                    <ol>
+                        <li>
+                            <a class="link" href="#portafolio">Portafolio</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#Experiencia">Experiencia</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#contacto">Trabajemos Juntos</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <h1>
+                Hola! Soy <strong>Daniel Arenas</strong> <br/> Desarrollador Practicante
+            </h1>
+            <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal del sitio">
+        </section>
+        <section id="portafolio" class="portfolio">
+            <h2>Portafolio (Proyenctos Destacados)</h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Platzi Video</h3>
+                        <h6 class="project-course">React Native / React</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 05/01/2021</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+                        <p class="project-descrip">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma
+                           El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
+                    </div>
+                <figure class="project-imageContainer">
+                <img class="project-image" src="images/platzi-video-react-native.png" alt="ptoyecto del curo de unidad web" width="500">
+                </figure>
+            </article>
+        </section>
+        <section id="Experiencia">
+            <h2>Mas sobre mi Experiencia</h2>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img src="images/platzi-conf.jpg" width="500" height="300"/>
+                </figure>
+                <h3 class="event-title">PlatziConf Peru 2021</h3>
+                <p>El evento mas grande sobre gente que quiere aprender de internet</p>
+                <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platica</a>
+            </article>
+        </section>
+        <section id="contacto">
+            <form action="/suscripcion/">
+                <h3>Creamos algo juntos?</h3>
+                <input type="text" placeholder="Dejame tu email" id="email">
+                <input type="submit" value="texto del boton">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <footer>footer</footer>
+    </body>
+</html>

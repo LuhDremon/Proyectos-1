@@ -1,0 +1,255 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 15px;
+    margin-left: 700px;
+}
+.logo {
+    display: block;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 250px;
+    height: 260px;
+}
+
+h1 {
+    font-size: 23px;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #606060;
+
+}
+
+.message {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    line-height: 15px;
+    padding-bottom: 15px;
+    color: #646b73
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 1px;
+    border-color: grey;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 1px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.client {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    width: 90px;
+    color: #606060;
+}
+
+.nclient {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    color: #898989;
+    font-weight: bold;
+}
+
+.direction {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    width: 90px;
+    color: #606060;
+}
+
+.ndirection {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    color: #898989;
+    font-weight: bold;
+}
+.date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    width: 90px;
+    color: #606060;
+}
+
+.ndate {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    color: #898989;
+    font-weight: bold;
+}
+.time {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    width: 90px;
+    color: #606060;
+}
+
+.ntime {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    color: #898989;
+    font-weight: bold;
+}
+.service {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    width: 90px;
+    color: #606060;
+}
+
+.nservice {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    color: #898989;
+    font-weight: bold;
+}
+
+.hi {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-left: 330px;
+}
+.hi2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-left: 300px;
+}
+
+.help {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #606060;
+}
+
+.gmail {
+    border-collapse: collapse;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.android {
+    font-family: 'Roboto',sans-serif;
+    font-size: 100px;
+    color: #898989;
+    font-weight: bold;
+    margin-top: 0;
+    max-width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 85px;
+    height: 24px;
+}
+
+.apple {
+    font-family: 'Roboto',sans-serif;
+    font-size: 100px;
+    color: #898989;
+    font-weight: bold;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 85px;
+    height: 24px;
+}
+
+.search {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #606060;
+}
+
+.facebook {
+    border-collapse: collapse;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.call1 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13PX;
+    color: #898989;
+    font-weight: no;
+    margin-left: 130px
+}
+
+.call2 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13PX;
+    color: #898989;
+    font-weight: no;
+    margin-left: 145Px
+}
+
+.call3 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13PX;
+    color: #898989;
+    font-weight: none;
+    margin-left: 140px
+}
+
+.create {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13PX;
+    color: #898989;
+    font-weight: none;
+    margin-left: 175px
+}
+
+.panbox {
+    border-collapse: collapse;
+    max-width: 500px;
+    margin: auto;
+}
